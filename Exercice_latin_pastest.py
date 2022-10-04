@@ -1,0 +1,206 @@
+from random import *
+
+
+def pomme():
+    print("Quelle est la traduction")
+    r = randint(1, 28)
+
+    if r == 1:
+        p = input("Ecce indique")
+        if p == "Voici que de toutes parts":
+            print("Oui")
+        else:
+            print("Non, c'est :    Voici que de toutes parts")
+
+    if r == 2:
+        p = input("varius clamor")
+        if p == "un ensemble de cris variés":
+            print("Oui")
+        else:
+            print("Non, c'est :    un ensemble de cris variés")
+
+    if r == 3:
+        p = input("me circumsonat :")
+        if p == "résonne autour de moi :":
+            print("Oui")
+        else:
+            print("Non, c'est :    résonne autour de moi :")
+
+    if r == 4:
+        p = input("supra ipsum balneum habito.")
+        if p == "j'habite au-dessus du bain lui-même (ipsum)":
+            print("Oui")
+        else:
+            print("Non, c'est :    j'habite au-dessus du bain lui-même (ipsum)")
+
+    if r == 5:
+        p = input("Propone nunc tibi :")
+        if p == "Imagine-toi maintenant":
+            print("Oui")
+        else:
+            print("Non, c'est :    Imagine-toi maintenant")
+
+    if r == 6:
+        p = input("omnia genera vocum")
+        if p == "tous les genres de bruits":
+            print("Oui")
+        else:
+            print("Non, c'est :    tous les genres de bruits")
+
+    if r == 7:
+        p = input("quae aures possunt")
+        if p == "que les oreilles peuvent":
+            print("Oui")
+        else:
+            print("Non, c'est :    que les oreilles peuvent")
+
+    if r == 8:
+        p = input("in odium adducere :")
+        if p == "avoir en haine :":
+            print("Oui")
+        else:
+            print("Non, c'est :    avoir en haine :")
+
+    if r == 9:
+        p = input("cum fortiores exercentur")
+        if p == "lorsque les plus forts s'exercent":
+            print("Oui")
+        else:
+            print("Non, c'est :    lorsque les plus forts s'exercent")
+
+    if r == 10:
+        p = input("et manus jactant")
+        if p == "et qu'ils balancent leurs mains":
+            print("Oui")
+        else:
+            print("Non, c'est :    et qu'ils balancent leurs mains")
+
+    if r == 11:
+        p = input("plumbo graves,")
+        if p == "lourdes de plomb,":
+            print("Oui")
+        else:
+            print("Non, c'est :    lourdes de plomb,")
+
+    if r == 12:
+        p = input("cum aut laborant")
+        if p == "lorsqu'ils peinent":
+            print("Oui")
+        else:
+            print("Non, c'est :    lorsqu'ils peinent")
+
+    if r == 13:
+        p = input("aut laborantem imitantur,")
+        if p == "ou bien qu'ils imitent celui qui peine (laborantem)":
+            print("Oui")
+        else:
+            print("Non, c'est :    ou bien qu'ils imitent celui qui peine (laborantem)")
+
+    if r == 14:
+        p = input("gemitus audio,")
+        if p == "j'entends des gémissements,":
+            print("Oui")
+        else:
+            print("Non, c'est :    j'entends des gémissements,")
+
+    if r == 15:
+        p = input("quotiens remiserunt")
+        if p == "chaque fois qu'ils relâchent":
+            print("Oui")
+        else:
+            print("Non, c'est :    chaque fois qu'ils relâchent")
+
+    if r == 16:
+        p = input("retentum spiritum,")
+        if p == "leur souffle retenu,":
+            print("Oui")
+        else:
+            print("Non, c'est :    leur souffle retenu,")
+
+    if r == 17:
+        p = input("audio sibbilos et acerbissimas respirationes ;")
+        if p == "j'entends leurs respirations sifflantes et difficiles ;":
+            print("Oui")
+        else:
+            print("Non, c'est :    j'entends leurs respirations sifflantes et difficiles ;")
+
+    if r == 18:
+        p = input("cum incidi")
+        if p == "lorsque je suis tombé":
+            print("Oui")
+        else:
+            print("Non, c'est :    lorsque je suis tombé")
+
+    if r == 19:
+        p = input("in aliquem inertem")
+        if p == "sur quelqu'un passif":
+            print("Oui")
+        else:
+            print("Non, c'est :    sur quelqu'un passif")
+
+    if r == 20:
+        p = input("et contentum hac plebia unctione,")
+        if p == "et content de son massage bon marché,":
+            print("Oui")
+        else:
+            print("Non, c'est :    et content de son massage bon marché,")
+
+    if r == 21:
+        p = input("audio crepitum")
+        if p == "j'entends le claquement":
+            print("Oui")
+        else:
+            print("Non, c'est :    j'entends le claquement")
+
+    if r == 22:
+        p = input("illisae manus umeris,")
+        if p == "d'une mains projetée sur son épaule,":
+            print("Oui")
+        else:
+            print("Non, c'est :    d'une mains projetée sur son épaule,")
+
+    if r == 23:
+        p = input("quae pro ut")
+        if p == "qui selon qu'":
+            print("Oui")
+        else:
+            print("Non, c'est :    qui selon qu'")
+
+    if r == 24:
+        p = input("plana pervenit aut concava")
+        if p == "elle se pose à plat ou creuse":
+            print("Oui")
+        else:
+            print("Non, c'est :    elle se pose à plat ou creuse")
+
+    if r == 25:
+        p = input("sonum mutat.")
+        if p == "change de bruit.":
+            print("Oui")
+        else:
+            print("Non, c'est :    change de bruit.")
+
+    if r == 26:
+        p = input("Si vero pilicrepus supervenit")
+        if p == "Si alors le joueur de balle survient":
+            print("Oui")
+        else:
+            print("Non, c'est :    Si alors le joueur de balle survient")
+
+    if r == 27:
+        p = input("et numera coepit pilas,")
+        if p == "et commence à compter les balles,":
+            print("Oui")
+        else:
+            print("Non, c'est :    et commence à compter les balles,")
+
+    if r == 28:
+        p = input("actum est.")
+        if p == "c'est fini.":
+            print("Oui")
+        else:
+            print("Non, c'est :    c'est fini.")
+
+
+while 1==1:
+    pomme()
